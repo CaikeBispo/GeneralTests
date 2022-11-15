@@ -35,6 +35,13 @@ fun main() {
         anoPublicacao = 1,
         editora = "Hagnos"
     )
+    
+   val livro6 = Livros(
+        titulo = "Memorias de um sargento de milicias",
+        autor = "Manuel Antonio de Almeira",
+        anoPublicacao = 1853,
+        editora = "Editora Moderna"
+    )
 
     val meusLivros: MutableList<Livros> =
         mutableListOf(livro1, livro2, livro3, livro4, livro5)
