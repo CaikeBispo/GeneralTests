@@ -1,3 +1,5 @@
+package salarios
+
 import java.math.BigDecimal
 
 class BigDecimalAux {
